@@ -1,0 +1,31 @@
+{
+  "name": "simple-dep",
+  "version": "0.0.1",
+  "description": "Boot your deploy workstation simply.",
+  "homepage": "https://github.com/seandou/simple-dep",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:seandou/simple-dep.git"
+  },
+  "keywords": [
+    "deploy",
+    "devops"
+  ],
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "main": "./lib/simple-dep.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  },
+  "bin": {
+    "dep": "./bin/cli.js"
+  },
+  "engines": {
+    "node": ">=0.10.x"
+  }
+}
