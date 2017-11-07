@@ -11,19 +11,16 @@
     "deploy",
     "devops"
   ],
-  "licenses": [
-    {
-      "type": "MIT"
-    }
-  ],
+  "license": "MIT",
   "main": "./lib/simple-dep.js",
   "dependencies": {
+    "shelljs": "^0.7.8"
   },
   "devDependencies": {
     "mocha": "^2.2.4"
   },
   "bin": {
-    "dep": "./bin/cli.js"
+    "sdep": "./bin/sdep"
   },
   "engines": {
     "node": ">=0.10.x"
